@@ -182,7 +182,8 @@ The goal is to improve **how we think**, not just get an accepted submission.
 
 Let's get better. 🚀
 
+DSA ROADMAP RESOURCE ( Take a local copy )
+https://docs.google.com/spreadsheets/d/1dM4S2PQueDmNTl392RtBHgGF8KtJFF1f/edit?usp=sharing&ouid=102646938828255992621&rtpof=true&sd=true
 
-
-RESOURCE SHEET : 
+Other Resources : 
 https://docs.google.com/spreadsheets/d/1QpSNcdcwOLQRywqeGns5ilo-OrgRmNhOrsTn4N0otVU/edit?gid=0#gid=0
