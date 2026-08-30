@@ -1,165 +1,187 @@
-# DSA-polio
-2 question zindagi ke
+# DSA — Two Questions a Day 🚀
 
-#  DSA — Two Questions a Day
+> **Two problems a day. Follow the roadmap. Build the pattern.**
 
-> 2 questions a day. That's it.
+Three of us are rebuilding our DSA skills from the ground up and preparing for technical interviews.
 
-Two questions a day means roughly **120 questions in two months**.
-That's enough to get those brains a little oil after all these years of sitting there eating dust. 💀
+The goal is not to grind random LeetCode problems.
 
-The goal is simple:
+The goal is to:
 
-**Be consistent. Learn the patterns. Get better at thinking.**
+* Build strong DSA fundamentals
+* Learn common interview patterns
+* Progress from **Easy → Medium → Hard**
+* Practice explaining our solutions
+* Develop pattern recognition
+* Become comfortable solving unfamiliar problems
 
-## 🚀 How This Works
+---
 
-There are three of us.
-Every Sunday, we meet and decide the topic for the upcoming week and day.
+## 📚 Our Roadmap
 
-============================================================================================
+We follow a **20-week structured DSA interview roadmap**.
 
-We study and solve problems related to that week's topic.
-Every day → 2 questions
-One person is responsible for selecting the questions for the next day
+### How We Choose Questions
 
-Example:
+We don't randomly pick questions. The roadmap is structured to gradually introduce concepts, reinforce patterns, and increase difficulty.
 
-Sunday
+| Week | Focus                      | Goal                                          |
+| ---- | -------------------------- | --------------------------------------------- |
+| 1    | Arrays                     | Fundamentals + array patterns                 |
+| 2    | Strings + Hashing          | Frequency, lookup, grouping                   |
+| 3    | Prefix Sum + Subarrays     | Cumulative state + subarray patterns          |
+| 4    | Two Pointers               | Opposite/same-direction pointers              |
+| 5    | Sliding Window             | Fixed + variable windows                      |
+| 6    | Sorting + Binary Search    | Search space + boundary reasoning             |
+| 7    | Linked Lists               | Traversal, reversal, fast/slow pointers       |
+| 8    | Stack + Queue              | LIFO/FIFO + monotonic stack                   |
+| 9    | Trees                      | DFS, BFS + recursion                          |
+| 10   | BST + Tree Patterns        | BST properties + tree DP                      |
+| 11   | Heap / Priority Queue      | Top-K, scheduling, K-way problems             |
+| 12   | Intervals + Greedy         | Overlap, scheduling + greedy decisions        |
+| 13   | Backtracking               | Subsets, permutations + pruning               |
+| 14   | Graphs I                   | BFS, DFS + connected components               |
+| 15   | Graphs II                  | Topological sort, Union-Find + shortest paths |
+| 16   | Dynamic Programming I      | 1D DP + state/transition                      |
+| 17   | Dynamic Programming II     | 2D DP, subsequences + knapsack                |
+| 18   | Tries + Bit Manipulation   | Specialized interview patterns                |
+| 19   | Mixed Interview Problems   | Pattern recognition                           |
+| 20   | Mock Interviews + Revision | Timed solving + interview readiness           |
+
+The complete list of problems is maintained in the **DSA Roadmap spreadsheet**, which is our single source of truth.
+
+### Difficulty Progression
+
+Within each topic:
+
+**Easy → Easy/Medium → Medium → Hard**
+
+We don't move to the next topic just because the week is over.
+
+If we haven't understood the core patterns, **we repeat the topic**.
+
+---
+
+## 🗓️ Weekly Structure
+
+| Day       | Focus                              |
+| --------- | ---------------------------------- |
+| Monday    | Fundamentals                       |
+| Tuesday   | Reinforcement                      |
+| Wednesday | Pattern variation                  |
+| Thursday  | Medium application                 |
+| Friday    | Interview-style problem            |
+| Saturday  | Challenge + Revision               |
+| Sunday    | Review + decide whether to move on |
+
+The roadmap already defines the two problems for each day.
+
+**No random problem selection.**
+
+---
+
+## 🧠 How We Solve
+
+For every problem:
+
+```text
+Understand
     ↓
-Decide Week 1 topic
+Brute Force
     ↓
-I select Monday's 2 questions
+Find the Bottleneck
     ↓
-Monday
+Identify the Pattern
     ↓
-Basra selects Tuesday's 2 questions
+Optimize
     ↓
-Tuesday
+Implement
     ↓
-Johri selects Wednesday's 2 questions
+Test Edge Cases
     ↓
-...
+Analyze Complexity
+    ↓
+Explain the Solution
+```
 
-The person selecting the questions should make sure they're actually relevant to the week's topic and aren't just randomly picked.
+Don't immediately look at the solution.
 
-Weekly cycle : 
+If stuck:
 
-| Day       | What happens                    |
-| --------- | ------------------------------- |
-| Sunday    | Decide topic + plan the week    |
-| Monday    | 2 questions                     |
-| Tuesday   | 2 questions                     |
-| Wednesday | 2 questions                     |
-| Thursday  | 2 questions                     |
-| Friday    | 2 questions                     |
-| Saturday  | 2 questions + review/discussion |
-| Sunday    | Review + decide next topic      |
+**Think → Hint → Try Again → Solution → Close It → Implement Yourself**
 
-============================================================================================
+---
 
-How We Choose Questions? 
+## 📈 Track Your Progress
 
-| Week  | Focus          | Goal                                    |
-| ----- | -------------- | --------------------------------------- |
-| 1     | Arrays         | Fundamentals + common patterns          |
-| 2     | Hashing        | Frequency, lookup, grouping             |
-| 3     | Two Pointers   | Opposite/same-direction pointers        |
-| 4     | Sliding Window | Fixed + variable windows                |
-| 5     | Stack + Queue  | Monotonic stack, basic queue patterns   |
-| 6     | Linked Lists   | Traversal, reversal, fast/slow pointers |
-| 7     | Binary Search  | Basic + search on answer                |
-| 8     | Trees          | Traversals + recursion                  |
-| 9     | BST + Heap     | BST patterns + priority queues          |
-| 10    | Intervals      | Merge, overlap, scheduling              |
-| 11    | Backtracking   | Subsets, permutations, combinations     |
-| 12–13 | Graphs         | BFS, DFS, components, shortest paths    |
-| 14–15 | Greedy + DP    | Core patterns                           |
-| 16    | Mixed Revision | Weak areas + interview-style problems   |
+We track two things separately.
 
+### Problem Status
 
-The important part isn't just solving the question.
+* 🟢 **Solved independently**
+* 🟡 **Solved with a hint**
+* 🔴 **Needed the solution**
 
-It's being able to answer:
+### Confidence
 
-What pattern is this?
-Why does this approach work?
-What is the brute-force solution?
-What makes the optimized solution better?
-What is the time complexity?
-What is the space complexity?
-Could I solve this again tomorrow without looking at the solution?
+After solving a problem, rate your confidence from **1–5**.
 
-============================================================================================
+| Score | Meaning                                          |
+| ----- | ------------------------------------------------ |
+| **1** | Barely understood the solution                   |
+| **2** | Understand it but can't reproduce it confidently |
+| **3** | Can solve it with some thought                   |
+| **4** | Can solve and explain it confidently             |
+| **5** | Can solve variations without much difficulty     |
 
-Don't Cheat Yourself
+The confidence score matters because **solving a problem once doesn't necessarily mean we've learned the pattern**.
 
-Getting the solution after 3 minutes of staring at the problem doesn't count as truly solving it.
+### Keep a Local Copy
 
-If you're stuck:
+Each person should keep a **local copy of the tracker** and update it regularly.
 
-Think.
-Try another approach.
-Take a small hint if necessary.
-Try again.
-Only then look at the solution.
-And after looking at the solution:
-Close it and implement it yourself.
+Track:
 
-We'll roughly classify problems as:
+* Status
+* Confidence
+* Time taken
+* Time complexity
+* Space complexity
+* Notes / mistakes
+* Revisit date
 
-🟢 Solved independently
-🟡 Solved with a hint
-🔴 Needed the solution
+Over time, this gives us a record of how our confidence changes throughout the roadmap.
 
-There's nothing wrong with 🟡 or 🔴.
+> **The goal is not just to solve the problem. The goal is to retain the pattern.**
 
-The only bad thing is pretending you solved it and then forgetting everything two days later.
+---
 
-------------------------------------------------
+## 👥 How We Work
 
-The Rules
-1. Two questions a day.
+All three of us solve the **same problems from the roadmap**.
 
-Not twenty.
-Not zero.
-Two.
+After solving, we:
 
-2. Don't skip.
+**Compare approaches → Explain → Discuss → Learn**
 
-Miss one day? Fine.
-Disappear for three weeks? Fuck you nigga, you ain't serious.
+If someone is stuck, help them with a hint instead of immediately giving the solution.
 
-3. Don't compete on question count.
+The goal is to improve **how we think**, not just get an accepted submission.
 
-Compete on understanding.
+---
 
-4. Explain your solution.
+# 🎯 The Rule
 
-If you can't explain it, you probably don't understand it yet. (This is the most important)
+> **Don't compete on the number of problems solved.**
+>
+> **Compete on how well you understand the patterns.**
 
-5. Help each other.
+**Two problems a day.**
 
-If someone is stuck, give them a hint. Probably a nudge in how to start thinking. 
-Don't just drop the solution.
+**Consistently.**
 
-6. Review your failures.
+Let's get better. 🚀
 
-Those are the problems that actually teach you something.
-
-============================================================================================
-
-Why We're Doing This ?
-Because six months from now, we don't want to be the same three idiots stuck at dedalus, complaining, our company doesn't give us treats.
-
-We want to be better.
-Better at problem solving.
-Better at coding.
-Better at interviews.
-In six months, we'll have a completely different level of confidence.
-And hopefully, better jobs and better packages.
-Then we can finally go visit all those places Basra keeps blabbering about. 🌍✈️
-See you on the other side. 🚀
 
 
 RESOURCE SHEET : 
