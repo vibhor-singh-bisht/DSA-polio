@@ -15,20 +15,14 @@ The goal is simple:
 ## 🚀 How This Works
 
 There are three of us.
-Every Sunday, we meet and decide the topic for the upcoming week.
-For example:
-
-
-Week 1 → Arrays + Hashing
-Week 2 → Two Pointers + Sliding Window
-Week 3 → Linked Lists
-Week 4 → Binary Search
-....
+Every Sunday, we meet and decide the topic for the upcoming week and day.
 
 ============================================================================================
+
 We study and solve problems related to that week's topic.
 Every day → 2 questions
-One person is responsible for selecting the questions for the next day.
+One person is responsible for selecting the questions for the next day
+
 Example:
 
 Sunday
@@ -66,16 +60,23 @@ Weekly cycle :
 
 How We Choose Questions? 
 
-The questions should gradually get harder.
+| Week  | Focus          | Goal                                    |
+| ----- | -------------- | --------------------------------------- |
+| 1     | Arrays         | Fundamentals + common patterns          |
+| 2     | Hashing        | Frequency, lookup, grouping             |
+| 3     | Two Pointers   | Opposite/same-direction pointers        |
+| 4     | Sliding Window | Fixed + variable windows                |
+| 5     | Stack + Queue  | Monotonic stack, basic queue patterns   |
+| 6     | Linked Lists   | Traversal, reversal, fast/slow pointers |
+| 7     | Binary Search  | Basic + search on answer                |
+| 8     | Trees          | Traversals + recursion                  |
+| 9     | BST + Heap     | BST patterns + priority queues          |
+| 10    | Intervals      | Merge, overlap, scheduling              |
+| 11    | Backtracking   | Subsets, permutations, combinations     |
+| 12–13 | Graphs         | BFS, DFS, components, shortest paths    |
+| 14–15 | Greedy + DP    | Core patterns                           |
+| 16    | Mixed Revision | Weak areas + interview-style problems   |
 
-A typical week might look like:
-
-Monday     → Fundamentals
-Tuesday    → Pattern recognition
-Wednesday  → Variations
-Thursday   → Medium / harder application
-Friday     → Mixed problems
-Saturday   → Challenge + revision
 
 The important part isn't just solving the question.
 
@@ -115,94 +116,7 @@ There's nothing wrong with 🟡 or 🔴.
 
 The only bad thing is pretending you solved it and then forgetting everything two days later.
 
-
-============================================================================================
-
-Git Workflow
-
-We don't all work directly on main.
-
-Create your own branch:
-
-git checkout main
-git pull
-git checkout -b week-01-your-name
-
-Solve your problems.
-
-Then:
-
-git add .
-git commit -m "Week 1 Monday solutions"
-git push -u origin week-01-your-name
-
-Create a Pull Request on GitHub.
-
-Everyone can look at each other's solutions, ask questions, point out mistakes and discuss different approaches.
-
-Once we're happy:
-
-branch
-   ↓
-Pull Request
-   ↓
-review
-   ↓
-merge
-   ↓
-main
-
-Before starting new work, always get the latest main:
-
-git checkout main
-git pull
-
-Then create your new branch.
-
-
-============================================================================================
-
-The Road Ahead
-We'll roughly move through:
-
-
-
-Arrays
-   ↓
-Hashing
-   ↓
-Two Pointers
-   ↓
-Sliding Window
-   ↓
-Stack / Queue
-   ↓
-Linked Lists
-   ↓
-Binary Search
-   ↓
-Trees / BST
-   ↓
-Heap
-   ↓
-Intervals
-   ↓
-Backtracking
-   ↓
-Graphs
-   ↓
-Greedy
-   ↓
-Dynamic Programming
-   ↓
-Advanced DSA
-
-
-
-We'll adjust this as we go.
-No need to rush through topics just to say we finished them.
-
-============================================================================================
+------------------------------------------------
 
 The Rules
 1. Two questions a day.
