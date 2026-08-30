@@ -1,0 +1,22 @@
+Before DSA, refresh these in order:
+
+Big-O / Time & Space Complexity
+Arrays / Lists
+Strings
+HashMap / Dictionary
+HashSet / Set
+Loops & Nested Loops
+Functions
+Recursion Basics
+References / Pointers
+Basic Data Structures
+Stack
+Queue
+Linked List
+Tree
+Heap
+Graph
+Sorting Basics
+Binary Search
+Problem Constraints & Edge Cases
+
