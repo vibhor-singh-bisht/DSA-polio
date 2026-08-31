@@ -1,6 +1,8 @@
 package Week1.Vibhor.Monday;
 
-public class q1 {
+import java.util.Arrays;
+
+public class Question1 {
         public int[] twoSum(int[] nums, int target) {
 
         int [] result = new int[2];
@@ -11,5 +13,17 @@ public class q1 {
                 }
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+
+        Question1 solution = new Question1();
+
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+
+        int[] result = solution.twoSum(nums, target);
+
+        System.out.println(Arrays.toString(result));
     }
 }
