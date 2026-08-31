@@ -187,3 +187,9 @@ https://docs.google.com/spreadsheets/d/1dM4S2PQueDmNTl392RtBHgGF8KtJFF1f/edit?us
 
 Other Resources : 
 https://docs.google.com/spreadsheets/d/1QpSNcdcwOLQRywqeGns5ilo-OrgRmNhOrsTn4N0otVU/edit?gid=0#gid=0
+
+
+Code owners :
+singhvibhor95@gmail.com
+rohitbasra76@gmail.com
+johrishrey1@gmail.com
