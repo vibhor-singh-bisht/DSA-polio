@@ -20,3 +20,131 @@ Sorting Basics
 Binary Search
 Problem Constraints & Edge Cases
 
+Best to worst complexities :
+
+O(1)
+O(logn)
+O(n^1/2)
+O(n)
+O(nlogn)
+O(n^2)
+O(n^3)
+O(2^n)
+O(n!)
+
+## Simple rule
+
+A constant-time operation is something that takes the same amount of time no matter how big the input is.
+
+Examples:
+- assigning a value to a variable
+- comparing two numbers
+- reading one array element by index
+- doing one addition or multiplication
+
+So if the input size is n, these still cost roughly 1 step.
+
+---
+
+## What is linear time?
+
+A linear operation is one where the work grows in direct proportion to n.
+
+Example:
+- loop from i = 0 to n - 1
+- process each element once
+
+If n doubles, the work roughly doubles.
+
+Example:
+
+```java
+for (int i = 0; i < n; i++) {
+    sum += arr[i];
+}
+```
+
+This is linear time: O(n)
+
+Why?
+- the loop runs n times
+- each iteration does constant work
+- total work = n × constant = O(n)
+
+---
+
+## How to tell quickly
+
+Ask:
+- Does the code touch each element once or a few times?
+- Does the number of operations scale with n?
+
+If yes, it is likely linear.
+
+### Constant time:
+- single assignment
+- single comparison
+- one array access
+- one arithmetic expression
+
+### Linear time:
+- one loop over n elements
+- scanning an array
+- traversing a linked list once
+
+---
+
+## Example
+
+```java
+int x = 5 + 7;   // constant time
+```
+
+No matter how large input is, this is just one operation.
+
+```java
+for (int i = 0; i < n; i++) {
+    System.out.println(arr[i]);
+}
+```
+
+This is linear time because it executes n times.
+
+---
+
+## Important point
+
+A single line of code is not automatically “linear” or “constant” by itself.
+
+What matters is the whole operation as input size grows.
+
+For example:
+
+```java
+arr[i] = arr[i] + 1;
+```
+
+This is constant time for one index access.
+
+But:
+
+```java
+for (int i = 0; i < n; i++) {
+    arr[i] = arr[i] + 1;
+}
+```
+
+This is linear time because it repeats n times.
+
+---
+
+## Quick memory trick
+
+- Constant = fixed cost
+- Linear = grows with n
+
+So:
+- O(1) = constant
+- O(n) = linear
+
+If you want, I can also explain the difference between O(1), O(log n), O(n), and O(n²) with a very simple diagram.
