@@ -1,4 +1,6 @@
-class Q2MaximumSubarray {
+package Week1.Vibhor.Thursday;
+
+public class Q2MaximumSubarray {
     public int maxSubArray(int[] nums) {
         int sum =0;
         int maxSum = Integer.MIN_VALUE;
@@ -10,7 +12,7 @@ class Q2MaximumSubarray {
         return maxSum;
      
     }
-
+    
     public static void main(String[] args) {
         Q2MaximumSubarray solution = new Q2MaximumSubarray();
 
@@ -20,5 +22,7 @@ class Q2MaximumSubarray {
 
         System.out.println(result);
     }
+
+    
 
 }
