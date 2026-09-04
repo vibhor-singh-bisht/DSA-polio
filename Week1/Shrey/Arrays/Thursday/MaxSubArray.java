@@ -1,6 +1,4 @@
-
 public class MaxSubArray {
-
     public int maxSubArray(int[] nums) {
         int sum = 0;
         int max = Integer.MIN_VALUE;
