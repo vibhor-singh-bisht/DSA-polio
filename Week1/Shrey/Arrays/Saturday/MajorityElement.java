@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class MajorityElement {
 
     public int majEleBrute(int nums[]) { // O(n^2)
@@ -5,7 +7,7 @@ public class MajorityElement {
         for (int i = 0; i < nums.length; i++) {
             int count = 0;
 
-            for (int j = 0; i < nums.length; j++) {
+            for (int j = 0; j < nums.length; j++) {
                 if (nums[j] == nums[i]) {
                     count++;
                 }
@@ -17,11 +19,32 @@ public class MajorityElement {
         return -1;
     }
 
+    public int majEleBetter(int[] nums) {
+        HashMap<Integer, Integer> frequency = new HashMap<>();
+
+        for (int num : nums) {
+            int count = frequency.getOrDefault(num, 0) + 1;
+            frequency.put(num, count);
+
+            if (count > nums.length / 2) {
+                return num;
+            }
+        }
+
+        return -1;
+    }
+
+    public int majEleMoore(int[] nums) {
+         
+    }
+
     public static void main(String[] args) {
         MajorityElement obj1 = new MajorityElement();
 
         int nums[] = { 3, 2, 3 };
         int res = obj1.majEleBrute(nums);
-        System.out.println(res);
+        int res1 = obj1.majEleBetter(nums);
+        int res2 = obj1.majEleMoore(nums);
+        System.out.println(res2);
     }
 }
