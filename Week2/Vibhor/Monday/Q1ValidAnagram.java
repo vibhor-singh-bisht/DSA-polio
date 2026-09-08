@@ -1,4 +1,4 @@
-package Week2.Vibhor;
+package Week2.Vibhor.Monday;
 
 import java.util.HashMap;
 

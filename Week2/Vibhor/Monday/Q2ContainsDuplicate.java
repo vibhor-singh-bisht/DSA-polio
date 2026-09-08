@@ -1,4 +1,4 @@
-package Week2.Vibhor;
+package Week2.Vibhor.Monday;
 
 public class Q2ContainsDuplicate {
     class Solution {
