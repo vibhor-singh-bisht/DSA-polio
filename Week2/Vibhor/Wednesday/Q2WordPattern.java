@@ -19,7 +19,7 @@ public class Q2WordPattern {
                 map.put(c,nums[i]);
             }
         }
-        
+         
         return true;
     }
 }
