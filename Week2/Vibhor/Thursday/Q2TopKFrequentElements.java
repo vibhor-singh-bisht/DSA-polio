@@ -1,5 +1,6 @@
 package Week2.Vibhor.Thursday;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -17,6 +18,7 @@ public class Q2TopKFrequentElements {
                 map.put(nums[i],map.get(nums[i])+1);
             }
         }
+        Arrays.sort(nums);
 
         Map<Integer,Integer> linkedMap = new LinkedHashMap<>();
 
