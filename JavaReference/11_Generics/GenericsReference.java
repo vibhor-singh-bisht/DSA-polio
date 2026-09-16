@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.List;
 import java.util.List;
 
 // Generics: let classes/methods operate on typed parameters, checked at compile time.

@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.Map;
 import java.util.Map;
 
 // Pattern: count occurrences of each element using a HashMap. O(n) time, O(n) space.

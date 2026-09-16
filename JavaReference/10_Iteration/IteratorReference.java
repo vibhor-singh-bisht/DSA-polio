@@ -1,6 +1,6 @@
 import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.ListIterator;
 
 // Iterator<T>: object used to traverse a collection one element at a time.

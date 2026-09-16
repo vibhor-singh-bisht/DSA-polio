@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Queue;
 
 // Queue: FIFO (First In, First Out). Most common implementation is LinkedList.

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 // java.util.Collections: static helper methods for working with List/Set/Map collections.
 public class CollectionsReference {
