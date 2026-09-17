@@ -23,6 +23,7 @@ class Solution {
         int [] ans = new int[queries.length];
         int i =0;
         for(int query: queries){
+            // This floorEntry() provides value which is the greatest key less than or equal to the query
             Map.Entry<Integer,Integer> entry = map.floorEntry(query);
 
             if(entry != null){
